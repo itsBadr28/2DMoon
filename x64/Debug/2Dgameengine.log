@@ -4,17 +4,18 @@
   imgui_draw.cpp
   imgui_sdl.cpp
   imgui_widgets.cpp
+  ECS.cpp
   Game.cpp
-C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.cpp(93,39): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
-C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.cpp(93,39): warning C4244:         with
-C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.cpp(93,39): warning C4244:         [
-C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.cpp(93,39): warning C4244:             T=float
-C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.cpp(93,39): warning C4244:         ]
 C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.cpp(94,39): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
 C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.cpp(94,39): warning C4244:         with
 C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.cpp(94,39): warning C4244:         [
 C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.cpp(94,39): warning C4244:             T=float
 C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.cpp(94,39): warning C4244:         ]
+C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.cpp(95,39): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.cpp(95,39): warning C4244:         with
+C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.cpp(95,39): warning C4244:         [
+C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.cpp(95,39): warning C4244:             T=float
+C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.cpp(95,39): warning C4244:         ]
   Game.h
   Logger.cpp
   Main.cpp

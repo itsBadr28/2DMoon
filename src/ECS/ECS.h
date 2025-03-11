@@ -5,7 +5,17 @@ const unsigned int MAX_ENTITIES = 32;
 
 typedef std::bitset<MAX_ENTITIES> Signature;
 
-class Component {
+struct IComponent {
+	protected:
+		static int nextId;
+};
+
+template <typename T> 
+class Component: public IComponent {
+	static int GetId() {
+		static auto id = nextId++;
+		return id;
+	}
 
 };
 
@@ -15,7 +25,7 @@ class Entity {
 
 	public:
 		Entity(int id) : id(id) {}
-		int GetID() const;
+		int GetId() const;
 
 };
 
@@ -33,7 +43,15 @@ class System {
 		std::vector<Entity> GetSystenEntities() const;
 		const Signature& GetComponentSignature() const;
 
+		template <typename TComponent> void RequireComponent();
+
 };
 
 class Registry {
 };
+
+template  <typename TComponent>
+void System::RequireComponent() {
+	const auto componentId = Component<TComponent>::GetId();
+	componetentSignature.set(componentId);
+}
