@@ -1,4 +1,5 @@
 #include "ECS.h"
+#include "../Logger/Logger.h"
 
 int Entity::GetId() const {
 	return id;
@@ -11,7 +12,7 @@ void System::AddEntityToSystem(Entity entity) {
 
 void System::RemoveEntityFromSystem(Entity entity) {
 	entities.erase(std::remove_if(std::begin(entities), std::end(entities), [&entity](const Entity& e) {
-		return entity.GetId() == e.GetId();
+		return entity == e;
 	}), std::end(entities));
 }
 
@@ -21,4 +22,21 @@ std::vector<Entity> System::GetSystenEntities() const {
 
 const Signature& System::GetComponentSignature() const {
 	return componetentSignature;
+}
+
+Entity Registry::CreateEntity() {
+	int entityId;
+
+	entityId = numEntities++;
+
+	Entity entity(entityId);
+	entitiesToBeAdded.insert(entity);
+
+	Logger::Log("Entity created with id: " + std::to_string(entityId));
+	return entity;
+
+}
+
+void Registry::Update() {
+	
 }
