@@ -1,5 +1,6 @@
-  #pragma once
-#include "../ECS/ECS.h"
+#ifndef MOVEMENTSYSTEM_H
+#define MOVEMENTSYSTEM_H
+#pragma once
 
 class MovementSystem: public System {
 	public:
@@ -12,3 +13,5 @@ class MovementSystem: public System {
 			}*/
 		}
 };
+
+#endif // MOVEMENTSYSTEM_H

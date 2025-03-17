@@ -1,3 +1,5 @@
+#ifndef LOGGER_H
+#define LOGGER_H
 #include <string>
 #include <vector>
 
@@ -19,3 +21,5 @@ class Logger {
 		static void Err(const std::string& message);
 		static void Warn(const std::string& message);
 };
+
+#endif // LOGGER_H
