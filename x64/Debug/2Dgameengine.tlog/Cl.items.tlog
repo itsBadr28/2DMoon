@@ -4,6 +4,7 @@ C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\libs\imgui\imgui_demo.cpp;
 C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\libs\imgui\imgui_draw.cpp;C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\x64\Debug\imgui_draw.obj
 C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\libs\imgui\imgui_sdl.cpp;C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\x64\Debug\imgui_sdl.obj
 C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\libs\imgui\imgui_widgets.cpp;C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\x64\Debug\imgui_widgets.obj
+C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\AssetStore\AssetStore.cpp;C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\x64\Debug\AssetStore.obj
 C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\ECS\ECS.cpp;C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\x64\Debug\ECS.obj
 C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.cpp;C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\x64\Debug\Game.obj
 C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\Game\Game.h;C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\x64\Debug\Game.obj

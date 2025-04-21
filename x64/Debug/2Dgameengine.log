@@ -1,5 +1,16 @@
-﻿  ECS.cpp
-  Game.cpp
-  Game.h
-  Generating Code...
+﻿  Game.cpp
+C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\System\MovementSystem.h(20,50): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\System\MovementSystem.h(20,50): warning C4244:         with
+C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\System\MovementSystem.h(20,50): warning C4244:         [
+C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\System\MovementSystem.h(20,50): warning C4244:             T=float
+C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\System\MovementSystem.h(20,50): warning C4244:         ]
+  (compiling source file 'src/Game/Game.cpp')
+  
+C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\System\MovementSystem.h(21,50): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\System\MovementSystem.h(21,50): warning C4244:         with
+C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\System\MovementSystem.h(21,50): warning C4244:         [
+C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\System\MovementSystem.h(21,50): warning C4244:             T=float
+C:\Users\adbad\source\repos\2Dgameengine\2Dgameengine\src\System\MovementSystem.h(21,50): warning C4244:         ]
+  (compiling source file 'src/Game/Game.cpp')
+  
   2Dgameengine.vcxproj -> C:\Users\adbad\source\repos\2Dgameengine\x64\Debug\2Dgameengine.exe
